@@ -1,0 +1,15 @@
+# Generated manifest.yml based on template version 0.1.0
+# appName = hanapi
+# language=nodejs
+# multitenancy=false
+---
+applications:
+# -----------------------------------------------------------------------------------
+# Backend Service
+# -----------------------------------------------------------------------------------
+- name: hanapi-srv
+  random-route: true  # for development only
+  path: app
+  buildpack: nodejs_buildpack
+  command: node server.js
+
