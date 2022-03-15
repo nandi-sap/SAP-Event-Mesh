@@ -1,6 +1,6 @@
 # CAP hanapi
 _out
-*.db
+*.db 
 connection.properties
 default-*.json
 .cdsrc-private.json
